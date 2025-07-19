@@ -23,9 +23,15 @@ If you find this code or paper is helpful, you can **star** this repository and 
 This work is developed based on the **[`intelligent-robot-simulator.`](https://github.com/hanruihua/intelligent-robot-simulator)**
 
 ## Prerequisite
-- numpy
+- numpy v1.26.4
 - cvxpy
-- matplotlib
+- matplotlib v3.5.1
+
+If TrueType fonts are missing, you can install them as follows (it is required to clear the cache afterwards):
+```
+sudo apt install ttf-mscorefonts-installer
+rm ~/.cache/matplotlib -rf
+```
 
 
 ## Installation 
